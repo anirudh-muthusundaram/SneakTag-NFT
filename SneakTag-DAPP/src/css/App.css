@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #52439b, #156c9e 48%, #c300ff)
+
+
+}
+
+.auth-form-container, .Authenticate-form{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: center;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.button-container1 {
+  position: absolute;
+  top: 0;
+  left: 40.9%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.button-container2 {
+  position: absolute;
+  top: 0;
+  right: 39.2%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.button-container3 {
+  position: absolute;
+  top: 0;
+  left: 47.5%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.button-container4 {
+  position: absolute;
+  top: 0;
+  right: 33.1%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.button-container5 {
+  position: absolute;
+  top: 0;
+  right: 28.1%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+
+
